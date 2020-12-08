@@ -7,7 +7,7 @@ message("**** configuring KratosIsogeometricApplication ****")
 include_directories( ${CMAKE_SOURCE_DIR})
 include_directories( ${CMAKE_SOURCE_DIR}/kratos)
 include_directories( ${CMAKE_SOURCE_DIR}/applications)
-include_directories( ${CMAKE_SOURCE_DIR}/applications/brep_application)
+#include_directories( ${CMAKE_SOURCE_DIR}/applications/brep_application)
 
 # add_subdirectory(custom_external_libraries/geomod)
 add_subdirectory(custom_external_libraries/tetgen1.5.0)
